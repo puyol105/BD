@@ -199,3 +199,4 @@ INSERT INTO mydb.TesteClinico_has_Utensilio(TesteClinico_idTesteClinico, Utensil
 VALUES((SELECT idTesteclinico FROM TesteClinico 
 WHERE  Agendamento_nºagendamento =((Select  nºagendamento From Agendamento where data_hora = '2017-11-05 16:00:00'))),
 (SELECT idUtensilio FROM Utensilio WHERE nome='Unidade de Refração'));
+

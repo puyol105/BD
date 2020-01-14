@@ -1,4 +1,3 @@
-
 SELECT idClube,nome,sigla
 FROM
     Clube    
@@ -7,3 +6,4 @@ FIELDS ENCLOSED BY '"'
 TERMINATED BY ';' 
 ESCAPED BY '"' 
 LINES TERMINATED BY '\r\n';
+

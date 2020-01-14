@@ -148,7 +148,3 @@ MATCH (age:Agendamento),(test:TesteClinico)
 WHERE age.nºagendamento=test.Agendamento
 CREATE (age) -[sm:realizado]-> (test);
 
-
-
-
-
